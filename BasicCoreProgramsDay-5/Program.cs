@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome! to basic core programming");
             Console.WriteLine("Please choose any one program from below options.");         //User input for options
-            Console.WriteLine("1:FlipCoin\n2:LeapYear");
+            Console.WriteLine("1:FlipCoin\n2:LeapYear\n3:PowerOfTwo");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -15,6 +15,9 @@
                     break;
                 case 2:
                     LeapYear.LeapYearPrgoram();
+                    break;
+                case 3:
+                    PowerOfTwo.PowerOfTwoNum();
                     break;
                 default:
                     Console.WriteLine("Please enter correct option");
