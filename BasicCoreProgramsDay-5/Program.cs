@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome! to basic core programming");
             Console.WriteLine("Please choose any one program from below options.");         //User input for options
-            Console.WriteLine("1:FlipCoin\n2:LeapYear\n3:PowerOfTwo");
+            Console.WriteLine("1:FlipCoin\n2:LeapYear\n3:PowerOfTwo\n4:Harmonics");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -18,6 +18,9 @@
                     break;
                 case 3:
                     PowerOfTwo.PowerOfTwoNum();
+                    break;
+                case 4:
+                    Harmonics.HarmonicNumber();
                     break;
                 default:
                     Console.WriteLine("Please enter correct option");
