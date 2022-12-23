@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome! to basic core programming");
             Console.WriteLine("Please choose any one program from below options.");         //User input for options
-            Console.WriteLine("1:FlipCoin\n2:LeapYear\n3:PowerOfTwo\n4:Harmonics\n5:Factors");
+            Console.WriteLine("1:FlipCoin\n2:LeapYear\n3:PowerOfTwo\n4:Harmonics\n5:Factors\n6:QuotientAndRemainder");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -26,6 +26,9 @@
                     Console.WriteLine("Please enter input value");
                     int input1 = Convert.ToInt32(Console.ReadLine());
                     Factors.factorsNumber(input1);
+                    break;
+                case 6:
+                    QuotientAndRemainder.findingQuotientNumber();
                     break;
                 default:
                     Console.WriteLine("Please enter correct option");
