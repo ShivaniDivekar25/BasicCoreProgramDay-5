@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome! to basic core programming");
             Console.WriteLine("Please choose any one program from below options.");         //User input for options
-            Console.WriteLine("1:FlipCoin\n2:LeapYear\n3:PowerOfTwo\n4:Harmonics\n5:Factors\n6:QuotientAndRemainder\n7:SwapTwoNumbers");
+            Console.WriteLine("1:FlipCoin\n2:LeapYear\n3:PowerOfTwo\n4:Harmonics\n5:Factors\n6:QuotientAndRemainder\n7:SwapTwoNumbers\n8:EvenOddNumber");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)         //Calling different methods using switch case
             {
@@ -32,6 +32,9 @@
                     break;
                 case 7:
                     SwapTwoNumbers.SwapTwoNumbers1();
+                    break;
+                case 8:
+                    EvenOdd.EvenOddNumber();
                     break;
                 default:
                     Console.WriteLine("Please enter correct option");
