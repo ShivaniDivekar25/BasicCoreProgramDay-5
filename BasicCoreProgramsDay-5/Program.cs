@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome! to basic core programming");
             Console.WriteLine("Please choose any one program from below options.");         //User input for options
-            Console.WriteLine("1:FlipCoin\n2:LeapYear\n3:PowerOfTwo\n4:Harmonics\n5:Factors\n6:QuotientAndRemainder\n7:SwapTwoNumbers\n8:EvenOddNumber\n9:VowelConsonant");
+            Console.WriteLine("1:FlipCoin\n2:LeapYear\n3:PowerOfTwo\n4:Harmonics\n5:Factors\n6:QuotientAndRemainder\n7:SwapTwoNumbers\n8:EvenOddNumber\n9:VowelConsonant\n10:LargestNumber");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)         //Calling different methods using switch case
             {
@@ -38,6 +38,9 @@
                     break;
                 case 9:
                     VowelConsonant.vowelConsonant();
+                    break;
+                case 10:
+                    LargestNumber.largestNumber();
                     break;
                 default:
                     Console.WriteLine("Please enter correct option");
